@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div class="calendar">
+    <button onclick="prevMonth()">Previous Month</button>
+    <h2 id="monthYear"></h2>
+    <button onclick="nextMonth()">Next Month</button>
+    <table id="daysTable">
+        <thead>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody id="calendarBody">
+        </tbody>
+    </table>
+</div>
+
+<button onclick="toggleCalendar()">Toggle Calendar</button>
+<button onclick="fadeInOutPieChart()">Fade In/Out Pie Chart</button>
+<button onclick="slideUpDownBarChart()">Slide Up/Down Bar Chart</button>
+<button onclick="animateCalendar()">Animate</button>
+<button onclick="stopSliding()">Stop Sliding</button>
+<button onclick="callbackExample()">Callback Example</button>
+<button onclick="chainingEffects()">Chaining</button>
+<button onclick="addRemoveDay()">Add/Remove Day</button>
+<button onclick="appendDay()">Append Day</button>
+<button onclick="afterBefore()">After/Before</button>
+<button onclick="changeHeightWidth()">Change Height/Width</button>
+
+<canvas id="barChart" width="400" height="200"></canvas>
+<canvas id="pieChart" width="400" height="200"></canvas>
+
+<
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
+
+
+
