@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.calendar {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#barChart, #pieChart {
+    margin-top: 20px;
+    display: block;
+}
+
+.day-content {
+    min-height: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+.day-content:focus {
+    background-color: #f0f0f0;
+}
+
+#CCodeSnippet {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+
